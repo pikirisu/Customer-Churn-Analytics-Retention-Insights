@@ -209,4 +209,15 @@ __marimo__/
 #logs and testing
 logs/
 testing.py
+<<<<<<< HEAD
 logs_reg/
+=======
+logs_reg/
+tuning_ann.ipynb
+base_requirements.txt
+Simple_RNN_Project/
+scaler_reg.pkl 
+regression_model.h5
+one_hot_encoder_reg.pkl
+label_encoder_gender_reg.pkl
+>>>>>>> 2248755 (Updating Readme Version 1.1)
