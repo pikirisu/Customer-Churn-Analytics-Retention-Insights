@@ -7,7 +7,7 @@
 
 A comprehensive deep learning project implementing **Artificial Neural Networks (ANNs)** for customer analytics, featuring both **binary classification** (churn prediction) and **regression** (salary estimation) tasks. This project demonstrates end-to-end machine learning engineering from data preprocessing to production-ready web applications.
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project solves real-world business problems using deep learning:
 
@@ -15,7 +15,7 @@ This project solves real-world business problems using deep learning:
 2. **Salary Estimation** (Regression): Estimates customer salary to identify high-value customers for targeted marketing strategies
 
 ### Live Demo
-🌐 **Deployed Application**: [Customer Churn Prediction App](https://ann-classification-churn-apa3zvgpebjoxfp8jhwaza.streamlit.app/)
+ **Deployed Application**: [Customer Churn Prediction App](https://ann-classification-churn-apa3zvgpebjoxfp8jhwaza.streamlit.app/)
 
 ## ✨ Key Features
 
@@ -27,7 +27,7 @@ This project solves real-world business problems using deep learning:
 - **Training Visualization**: TensorBoard integration for monitoring training metrics
 - **Early Stopping**: Prevents overfitting with intelligent callback mechanisms
 
-## 🛠️ Technical Stack
+##  Technical Stack
 
 ### Core Technologies
 - **Deep Learning**: TensorFlow/Keras for ANN implementation
@@ -39,20 +39,20 @@ This project solves real-world business problems using deep learning:
 
 ### Skills Demonstrated
 
-#### 🧠 Machine Learning & Deep Learning
+####  Machine Learning & Deep Learning
 - **Neural Network Architecture Design**: Multi-layer perceptron (MLP) with optimized hidden layers
 - **Binary Classification**: Sigmoid activation with binary cross-entropy loss
 - **Regression Analysis**: Linear output layer with appropriate loss functions
 - **Hyperparameter Optimization**: Learning rate tuning, architecture search
 - **Model Evaluation**: Accuracy, loss metrics, validation strategies
 
-#### 📊 Data Engineering
+####  Data Engineering
 - **Feature Engineering**: Categorical encoding (One-Hot, Label Encoding)
 - **Data Scaling**: StandardScaler for feature normalization
 - **Data Validation**: Input range validation and preprocessing pipelines
 - **Model Artifacts Management**: Pickle serialization for encoders and scalers
 
-#### 💻 Software Engineering
+####  Software Engineering
 - **Production Deployment**: Streamlit cloud deployment
 - **Code Organization**: Modular structure with separation of concerns
 - **Model Versioning**: Saved model formats (.h5) for reproducibility
@@ -97,7 +97,7 @@ ANN_Project/
     └── fit/                    # Training run logs with timestamps
 ```
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -173,7 +173,7 @@ prediction = model.predict(scaled_input)
 churn_probability = prediction[0][0]
 ```
 
-## 🏗️ Model Architecture
+##  Model Architecture
 
 ### Churn Prediction Model (Classification)
 ```
@@ -210,7 +210,7 @@ Output Layer: 1 neuron (linear activation)
 - Loss Function: Mean Squared Error (MSE)
 - Metrics: Mean Absolute Error (MAE)
 
-## 📊 Dataset Information
+##  Dataset Information
 
 - **Source**: Churn_Modelling.csv
 - **Size**: ~10,000 customer records
@@ -228,22 +228,22 @@ Output Layer: 1 neuron (linear activation)
 2. **Feature Scaling**: StandardScaler normalization
 3. **Train-Test Split**: Standard stratified split for classification
 
-## 🎓 Skills & Competencies Highlighted
+##  Skills & Competencies Highlighted
 
 ### Technical Skills
-- ✅ **Deep Learning**: ANN architecture design, activation functions, loss functions
-- ✅ **Machine Learning**: Classification, regression, model evaluation
-- ✅ **Data Science**: EDA, feature engineering, preprocessing pipelines
-- ✅ **Python Programming**: Object-oriented design, modular code structure
-- ✅ **MLOps**: Model deployment, versioning, monitoring
-- ✅ **Web Development**: Streamlit framework, interactive UI design
+-  **Deep Learning**: ANN architecture design, activation functions, loss functions
+-  **Machine Learning**: Classification, regression, model evaluation
+-  **Data Science**: EDA, feature engineering, preprocessing pipelines
+-  **Python Programming**: Object-oriented design, modular code structure
+-  **MLOps**: Model deployment, versioning, monitoring
+-  **Web Development**: Streamlit framework, interactive UI design
 
 ### Soft Skills & Best Practices
-- ✅ **Problem-Solving**: End-to-end ML pipeline development
-- ✅ **Documentation**: Comprehensive README and code comments
-- ✅ **Version Control**: Git workflow and repository management
-- ✅ **Production Mindset**: Deployment-ready applications
-- ✅ **Experimentation**: Systematic hyperparameter tuning approach
+-  **Problem-Solving**: End-to-end ML pipeline development
+-  **Documentation**: Comprehensive README and code comments
+-  **Version Control**: Git workflow and repository management
+-  **Production Mindset**: Deployment-ready applications
+-  **Experimentation**: Systematic hyperparameter tuning approach
 
 ## 📈 Model Performance
 
@@ -258,7 +258,7 @@ Output Layer: 1 neuron (linear activation)
 
 *Note: Detailed metrics available in TensorBoard logs and training notebooks*
 
-## 🔄 Future Enhancements
+##  Future Enhancements
 
 - [ ] Implement cross-validation for more robust evaluation
 - [ ] Add automated hyperparameter tuning with GridSearchCV/RandomSearch
@@ -273,15 +273,15 @@ Output Layer: 1 neuron (linear activation)
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📝 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 👤 Author
+##  Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- GitHub: [pikirisu](https://github.com/pikirisu)
+- LinkedIn: [Akshat Chaurasia](https://www.linkedin.com/in/akshat-chaurasia-1289252a9/)
 
 ## 🙏 Acknowledgments
 
