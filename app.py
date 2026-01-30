@@ -13,15 +13,15 @@ st.set_page_config(
 )
 
 # Load Model 
-model = tf.keras.models.load_model("model.h5")
+model = tf.keras.models.load_model("models/model.h5")
 
-with open("one_hot_encoder.pkl", "rb") as file:
+with open("models/one_hot_encoder.pkl", "rb") as file:
     one_hot_encoder = pickle.load(file)
 
-with open("label_encoder_gender.pkl", "rb") as file:
+with open("models/label_encoder_gender.pkl", "rb") as file:
     label_encoder_gender = pickle.load(file)
 
-with open("scaler.pkl", "rb") as file:
+with open("models/scaler.pkl", "rb") as file:
     scaler = pickle.load(file)
 
 # UI Header
