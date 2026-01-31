@@ -1,11 +1,12 @@
 streamlit>=1.30.0
 
-numpy
+tensorflow==2.20.0
+keras==3.13.0
+numpy==2.4.0
+protobuf==6.33.2
+
 pandas
 scikit-learn
 matplotlib
 joblib
 scikeras
-
-tensorflow==2.15.0
-protobuf<4.0.0
